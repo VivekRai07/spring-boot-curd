@@ -28,6 +28,7 @@ public class ProductController {
 		String data = "Product Data Save" + id;
 		ResponseEntity<String> res = new ResponseEntity<String>(data,
 				HttpStatus.CREATED);
+		System.out.println("hi");
 		return res;
 		
 	}
